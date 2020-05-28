@@ -1,0 +1,67 @@
+#grid {
+    width: 20em;
+    height: 40em;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid div {
+    width: 2em;
+    height: 2em;
+    /*border: 1px black solid;*/
+}
+
+#next-shape {
+    margin-left: 2em;
+    padding: 2em;
+    width: 11em;
+    height: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+#next-shape div {
+    width: 2em;
+    height: 2em;
+    /*border: 1px black solid;*/
+}
+
+#grid-container {
+    display: flex;
+    align-content: space-between;
+}
+
+#main-container {
+    padding: 10em;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+
+#score-display {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+#score {
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#start-button {
+    padding: 10px;
+    margin-left: 6em;
+    color: darkgreen;
+    font-size: medium;;
+}
+
+#game-over {
+    padding: 2em;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
